@@ -4,7 +4,7 @@ class Migration(migrations.Migration):
     dependencies = [
         ('msgboard', '0001_initial'),
     ]
-    
+
     def generate_data(apps, schema_editor):
         from msgboard.models import Message
 
