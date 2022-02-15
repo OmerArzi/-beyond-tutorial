@@ -1,5 +1,6 @@
 from django.db import migrations, transaction
 
+
 class Migration(migrations.Migration):
     dependencies = [
         ('msgboard', '0001_initial'),
