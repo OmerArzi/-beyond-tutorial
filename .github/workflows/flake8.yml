@@ -12,5 +12,5 @@ jobs:
         uses: actions/checkout@v2
       - name: setup environment
         run: pipenv sync --dev
-      - name: Run Flake8
+      - name: Run Flake8 
         run: pipenv run flake8 --max-line-length 120
